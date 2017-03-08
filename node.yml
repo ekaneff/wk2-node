@@ -1,0 +1,7 @@
+---
+  - hosts: web
+    become: true
+    user: root
+    roles: 
+      - nginx
+      - node
