@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DIRECTORY="/var/repos/note.git"
+DIRECTORY="/var/repos/node.git"
 
 if [ ! -d "$DIRECTORY" ]; then
 
