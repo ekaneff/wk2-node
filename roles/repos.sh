@@ -11,6 +11,7 @@ cd /var
 cd /var/repos/node.git/hooks
 
 touch post-receive
+chmod +x post-receive
 FILE=post-receive
 echo "#!/bin/sh" > $FILE
 echo "GIT_WORK_TREE=/var/www/html/node git checkout -f" >> $FILE
